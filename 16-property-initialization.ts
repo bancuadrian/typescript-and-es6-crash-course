@@ -3,6 +3,8 @@
  * compiler will check if properties are initialized before usage.
  * 
  * To mark that this will definitely be initialized, add the "!" operator
+ * 
+ * "!" == definite assignment assertion operator
  */
 
  class Library {
