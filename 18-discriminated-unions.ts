@@ -28,6 +28,9 @@ interface Triangle {
     kind: "triangle";
 }
 
+/**
+ * this is called union of types
+ */
 type Shape = Square | Rectangle | Circle; // | Triangle - if you add this, compiler will throw an error Argument of type 'Triangle' is not assignable to parameter of type 'never'.
 /**
  * x: never means that this value will never be assigned
