@@ -15,7 +15,7 @@ utilObj.cow();
 utilObj.sayHello();
 
 /**
- * default exports do not neet {function} imports
+ * default exports do not need {function} imports
  */
 import thisIsDefault from "./utils";
 thisIsDefault();
