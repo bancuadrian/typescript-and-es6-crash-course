@@ -56,7 +56,7 @@ class Animal implements IAnimal {
  * type aliases can act like a more complex type, like a function
  */
 type Eat = (food: string) => boolean;
-let animalEats: Eat = (food: string) {
+let animalEats: Eat = (food: string) => {
     return true;
 };
 
@@ -67,7 +67,7 @@ let animalEats: Eat = (food: string) {
 interface IEat {
     (food: string): boolean;
 }
-let anotherAnimalEats: IEat = (food: string) {
+let anotherAnimalEats: IEat = (food: string) => {
     return true;
 };
 
